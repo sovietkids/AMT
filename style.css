@@ -13,3 +13,10 @@ div {
 img {
     width: 100%;
 }
+
+input {
+    border: none;
+    outline: none;
+    background: rgb(31, 87, 255);
+    border-radius:10px;
+}
