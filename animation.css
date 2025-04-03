@@ -1,0 +1,13 @@
+body {
+    animation: slideinRight 3s;
+}
+  
+  @keyframes slideinRight {
+    0% {
+      transform: translateX(-50px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  

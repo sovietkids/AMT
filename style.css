@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    color: rgb(31, 87, 255);
+    background-size: 500px;
+}
+
+div {
+    margin: 100px;
+    border: solid 3px;
+    border-color: rgb(31, 87, 255);
+}
+
+img {
+    width: 100%;
+}
