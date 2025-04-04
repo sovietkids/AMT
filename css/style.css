@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    color: rgb(31, 87, 255);
+    background-size: 500px;
+}
+
+div {
+    margin: 100px;
+    border: solid 3px;
+    border-color: rgb(31, 87, 255);
+}
+
+img {
+    width: 100%;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: rgb(31, 87, 255);
+    border-radius:10px;
+}
+
+button {
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: rgb(31, 87, 255);
+    transition: 0.5s;
+}
+
+button:hover {
+    color: black;
+    transition: 0.5s;
+}
+
