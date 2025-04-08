@@ -36,3 +36,6 @@ button:hover {
     transition: 0.5s;
 }
 
+audio {
+    width: 100%;
+}
