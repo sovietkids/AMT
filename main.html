@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="javascript/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="icon" href="img/AMT_flag.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>反まつざか組</title>
 </head>
 <body>
-    <script>location.href="index.html"</script>
+    <h1>反まつざか組</h1>
+    <div>
+        <h3>紹介</h3>
+        <p>反まつざか組とは、カルト宗教まつざか組を「撲滅」する組織です。<p>
+        <p>更に誰でも気楽に入れます！</p>
+        <img src="img/AMT_flag.png" alt="" width="700px">
+    </div>
+    <div>
+        <h3>曲</h3>
+        <p>Anti MATSUZAKA Team</p>
+        <audio controls src="img/Anti_MATSUZAKA_Team.mp3">反まつざか組</audio>
+    </div>
+    <div>
+        <h3>掲示板</h3>
+        <button style="margin:10px;" onclick="location.href='chat.html'">掲示板に移動する</button>
+    </div>
+    <div>
+        <h3>デバックメニュー</h3>
+        <button style="margin:10px;" onclick='localStorage.setItem("passwordunlocked", "false"); console.log("passwordunlocked:false")'>passwordunlockedをfalseにする</button>
+    </div>
 </body>
 </html>
