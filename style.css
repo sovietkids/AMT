@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    color: rgb(31, 87, 255);
+    background-size: 500px;
+}
+
+div {
+    margin: 0.5%;
+    border: solid 3px;
+    border-color: rgb(31, 87, 255);
+}
+
+img {
+    width: 100%;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: rgb(31, 87, 255);
+    border-radius:10px;
+}
+
+button {
+    border-color: rgba(31, 87, 255, 0.286);
+    border-radius: 20px;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    color: rgb(31, 87, 255);
+    transition: 0.5s;
+}
+
+button:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+audio {
+    width: 60%;
+}
+
+video {
+    width: 60%;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    background: rgb(31, 87, 255);
+    border-radius:10px;
+}
