@@ -5,5 +5,3 @@ if (passwordInput === "true"){
 } else {
     location.href="index.html";
 }
-
-location.href="tensou.html"
